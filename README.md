@@ -21,3 +21,5 @@ Authenticate-Zuul Gateway Proxy Service.
 "username" : "tuan",
 "password" : "123"
 }
+Header:
+Content-Type : application/json
