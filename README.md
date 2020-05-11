@@ -13,3 +13,11 @@ Authenticate-Zuul Gateway Proxy Service.
 		- Gắn token vào header trước khi điều hướng đi service khác.						
 		- Responce kết quả về Brower sau khi gọi service có kết quả.						
  ** Đã tích hợp Authentication và Zull gateway proxy
+ ===
+ http://localhost:8080/authenticate
+ Method: Post
+ Body:
+ {
+"username" : "tuan",
+"password" : "123"
+}
